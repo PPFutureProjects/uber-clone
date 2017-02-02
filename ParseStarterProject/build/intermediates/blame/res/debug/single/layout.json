@@ -20,12 +20,12 @@
         "source": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout\\place_autocomplete_fragment.xml"
     },
     {
-        "merged": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
-        "source": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout\\place_autocomplete_progress.xml"
-    },
-    {
         "merged": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
         "merged": "D:\\Personal_Projects\\Android Course\\uber-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",

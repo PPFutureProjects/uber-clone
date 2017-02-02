@@ -1,9 +1,13 @@
 package com.parse.starter;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.view.ViewTreeObserver;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -39,6 +43,8 @@ public class DriverMap extends FragmentActivity implements OnMapReadyCallback {
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        intent = getIntent();
     }
 
     @Override
@@ -46,33 +52,38 @@ public class DriverMap extends FragmentActivity implements OnMapReadyCallback {
     {
         mMap = googleMap;
 
-        intent = getIntent();
-        LatLng driverLocation = new LatLng(
-                intent.getDoubleExtra("driverLatitude", 0),
-                intent.getDoubleExtra("driverLongitude", 0)
-        );
-        LatLng requestLocation = new LatLng(
-                intent.getDoubleExtra("requestLatitude", 0),
-                intent.getDoubleExtra("requestLongitude", 0)
-        );
+        RelativeLayout activity_driver_map = (RelativeLayout) findViewById(R.id.activity_driver_map);
+        activity_driver_map.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @Override
+            public void onGlobalLayout() {
+                LatLng driverLocation = new LatLng(
+                        intent.getDoubleExtra("driverLatitude", 0),
+                        intent.getDoubleExtra("driverLongitude", 0)
+                );
+                LatLng requestLocation = new LatLng(
+                        intent.getDoubleExtra("requestLatitude", 0),
+                        intent.getDoubleExtra("requestLongitude", 0)
+                );
 
-        ArrayList<Marker> markers = new ArrayList<Marker>();
-        markers.add(mMap.addMarker(
-                new MarkerOptions().position(driverLocation).title("My Location")));
-        markers.add(mMap.addMarker(
-                new MarkerOptions().position(requestLocation).title("Request Location")
-        ));
+                ArrayList<Marker> markers = new ArrayList<Marker>();
+                markers.add(mMap.addMarker(
+                        new MarkerOptions().position(driverLocation).title("My Location")));
+                markers.add(mMap.addMarker(
+                        new MarkerOptions().position(requestLocation).title("Request Location")
+                ));
 
-        LatLngBounds.Builder builder = new LatLngBounds.Builder();
-        for (Marker marker: markers) {
-            builder.include(marker.getPosition());
-        }
-        LatLngBounds bounds = builder.build();
+                LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                for (Marker marker: markers) {
+                    builder.include(marker.getPosition());
+                }
+                LatLngBounds bounds = builder.build();
 
-        int padding = 150;
-        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngBounds(bounds, padding);
+                int padding = 150;
+                CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngBounds(bounds, padding);
 
-        mMap.animateCamera(cameraUpdate);
+                mMap.animateCamera(cameraUpdate);
+            }
+        });
     }
 
     public void AcceptRequest(View view)
@@ -90,11 +101,14 @@ public class DriverMap extends FragmentActivity implements OnMapReadyCallback {
                                 @Override
                                 public void done(ParseException e) {
                                     if (e == null) {
-                                        Toast.makeText(
-                                                getApplicationContext(),
-                                                "Successful",
-                                                Toast.LENGTH_SHORT
-                                        ).show();
+                                        //ParseUser.logOut();
+                                        Intent directionIntent = new Intent(android.content.Intent.ACTION_VIEW,
+                                                Uri.parse("http://maps.google.com/maps?saddr=" +
+                                                        intent.getDoubleExtra("driverLatitude", 0) + ","
+                                                        + intent.getDoubleExtra("driverLongitude", 0) +
+                                                        "&daddr=" + intent.getDoubleExtra("requestLatitude", 0)
+                                                        + "," + intent.getDoubleExtra("requestLongitude", 0)));
+                                        startActivity(directionIntent);
                                     }
                                 }
                             });
