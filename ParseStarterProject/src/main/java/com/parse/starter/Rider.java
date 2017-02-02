@@ -21,11 +21,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.parse.FindCallback;
@@ -37,6 +40,7 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
+import java.util.ArrayList;
 import java.util.List;
 import android.os.Handler;
 import java.util.logging.LogRecord;
@@ -53,6 +57,8 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
 
     Handler handler = new Handler();
     TextView tvMessage;
+
+    Boolean driverActive = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -179,10 +185,12 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
 
     public void updateMap(Location location)
     {
-        mMap.clear();
-        LatLng userLocation = new LatLng(location.getLatitude(), location.getLongitude());
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation, 10));
-        mMap.addMarker(new MarkerOptions().position(userLocation).title("Your Location"));
+        if (!driverActive) {
+            mMap.clear();
+            LatLng userLocation = new LatLng(location.getLatitude(), location.getLongitude());
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation, 10));
+            mMap.addMarker(new MarkerOptions().position(userLocation).title("Your Location"));
+        }
     }
 
     public void CallUber(View view)
@@ -273,28 +281,99 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
                          @Override
                          public void done(List<ParseUser> objects, ParseException e) {
                              if (e == null && objects.size() > 0) {
-                                 ParseGeoPoint driverLocation = objects.get(0).getParseGeoPoint("location");
+                                 driverActive = true;
+
+                                 final ParseGeoPoint driverLocation = objects.get(0).getParseGeoPoint("location");
+
                                  if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                                      Location lastKnowLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
                                      if (lastKnowLocation != null) {
                                          ParseGeoPoint userLocation = new ParseGeoPoint(lastKnowLocation.getLatitude(), lastKnowLocation.getLongitude());
                                          Double distanceInKm = driverLocation.distanceInKilometersTo(userLocation);
                                          distanceInKm = (double) Math.round(distanceInKm * 10) / 10;
-                                         tvMessage.setText("Your driver is " + distanceInKm.toString() + " km away");
+
+                                         mMap.clear();
+                                         if (distanceInKm < 0.01) {
+
+                                             tvMessage.setText(R.string.driver_arrived);
+
+                                             ParseQuery<ParseObject> query2 = ParseQuery.getQuery("Requests");
+                                             query2.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+                                             query2.findInBackground(new FindCallback<ParseObject>() {
+                                                 @Override
+                                                 public void done(List<ParseObject> objects, ParseException e) {
+                                                     if (e == null) {
+                                                         for (ParseObject request: objects) {
+                                                             request.deleteInBackground();
+                                                         }
+                                                     }
+                                                 }
+                                             });
+
+                                             handler.postDelayed(new Runnable() {
+                                                 @Override
+                                                 public void run() {
+                                                     tvMessage.setText("");
+                                                     btCall.setVisibility(View.VISIBLE);
+                                                     btCall.setText(R.string.call_an_uber);
+                                                     requestActive = false;
+                                                     driverActive = false;
+
+                                                     checkForUpdates();
+                                                 }
+                                             }, 5000);
+                                         }
+                                         else {
+                                             tvMessage.setText("Your driver is " + distanceInKm.toString() + " km away");
+
+                                             LatLng driverLocationLatLng = new LatLng(
+                                                     driverLocation.getLatitude(),
+                                                     driverLocation.getLongitude()
+                                             );
+                                             LatLng requestLocationLatLng = new LatLng(
+                                                     userLocation.getLatitude(),
+                                                     userLocation.getLongitude()
+                                             );
+
+                                             ArrayList<Marker> markers = new ArrayList<Marker>();
+                                             markers.add(mMap.addMarker(
+                                                     new MarkerOptions().
+                                                             position(driverLocationLatLng).
+                                                             title("Driver Location").
+                                                             icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)
+                                                             )));
+                                             markers.add(mMap.addMarker(
+                                                     new MarkerOptions().
+                                                             position(requestLocationLatLng).
+                                                             title("Your Location")
+                                             ));
+
+                                             LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                                             for (Marker marker: markers) {
+                                                 builder.include(marker.getPosition());
+                                             }
+                                             LatLngBounds bounds = builder.build();
+
+                                             int padding = 150;
+                                             CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngBounds(bounds, padding);
+
+                                             mMap.animateCamera(cameraUpdate);
+
+                                             btCall.setVisibility(View.INVISIBLE);
+                                             handler.postDelayed(new Runnable() {
+                                                 @Override
+                                                 public void run() {
+                                                     checkForUpdates();
+                                                 }
+                                             }, 2000);
+                                         }
                                      }
                                  }
                              }
                          }
                      });
-
-                     btCall.setVisibility(View.INVISIBLE);
                  }
-                handler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        checkForUpdates();
-                    }
-                }, 2000);
             }
         });
     }

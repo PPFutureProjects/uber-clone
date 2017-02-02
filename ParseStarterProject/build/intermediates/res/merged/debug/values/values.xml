@@ -714,6 +714,7 @@
     <string name="debug_menu_title">Select a Debug Mode</string>
     <string name="debug_menu_troubleshooting">Troubleshooting</string>
     <string name="decline">Decline</string>
+    <string name="driver_arrived">Your driver has arrived</string>
     <string name="driver_on_the_way">Your driver is on the way</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDHP61ACZjxj2Zs0HcWDLlw8qXnwKVckC0</string>
     <string name="hello_world">Hello World!</string>

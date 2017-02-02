@@ -20,4 +20,5 @@
     <string name="title_activity_driver_map">Map</string>
     <string name="logout">Logout</string>
     <string name="driver_on_the_way">Your driver is on the way</string>
+    <string name="driver_arrived">Your driver has arrived</string>
 </resources>

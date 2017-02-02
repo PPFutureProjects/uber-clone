@@ -3583,10 +3583,11 @@ containing a value of this type.
         public static final int debug_menu_title=0x7f080050;
         public static final int debug_menu_troubleshooting=0x7f080051;
         public static final int decline=0x7f080052;
-        public static final int driver_on_the_way=0x7f08007b;
-        public static final int google_maps_key=0x7f08007c;
-        public static final int hello_world=0x7f08007d;
-        public static final int logout=0x7f08007e;
+        public static final int driver_arrived=0x7f08007b;
+        public static final int driver_on_the_way=0x7f08007c;
+        public static final int google_maps_key=0x7f08007d;
+        public static final int hello_world=0x7f08007e;
+        public static final int logout=0x7f08007f;
         public static final int mr_button_content_description=0x7f080053;
         public static final int mr_chooser_searching=0x7f080054;
         public static final int mr_chooser_title=0x7f080055;
@@ -3603,18 +3604,18 @@ containing a value of this type.
         public static final int mr_controller_stop=0x7f080060;
         public static final int mr_system_route_name=0x7f080061;
         public static final int mr_user_route_category_name=0x7f080062;
-        public static final int parse_app_id=0x7f08007f;
-        public static final int parse_client_key=0x7f080080;
+        public static final int parse_app_id=0x7f080080;
+        public static final int parse_client_key=0x7f080081;
         public static final int place_autocomplete_clear_button=0x7f080063;
         public static final int place_autocomplete_search_hint=0x7f080064;
         public static final int status_bar_notification_info_overflow=0x7f080065;
         public static final int store_picture_message=0x7f080066;
         public static final int store_picture_title=0x7f080067;
-        public static final int tagmanager_preview_dialog_button=0x7f080081;
-        public static final int tagmanager_preview_dialog_message=0x7f080082;
-        public static final int tagmanager_preview_dialog_title=0x7f080083;
-        public static final int title_activity_driver_map=0x7f080084;
-        public static final int title_activity_rider=0x7f080085;
+        public static final int tagmanager_preview_dialog_button=0x7f080082;
+        public static final int tagmanager_preview_dialog_message=0x7f080083;
+        public static final int tagmanager_preview_dialog_title=0x7f080084;
+        public static final int title_activity_driver_map=0x7f080085;
+        public static final int title_activity_rider=0x7f080086;
         public static final int wallet_buy_button_place_holder=0x7f080068;
     }
     public static final class style {
