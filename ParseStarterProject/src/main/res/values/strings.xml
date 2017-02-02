@@ -19,4 +19,5 @@
     <string name="call_an_uber">Call An Uber</string>
     <string name="title_activity_driver_map">Map</string>
     <string name="logout">Logout</string>
+    <string name="driver_on_the_way">Your driver is on the way</string>
 </resources>

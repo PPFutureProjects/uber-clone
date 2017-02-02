@@ -18,6 +18,7 @@ import android.location.LocationListener;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -25,6 +26,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.parse.FindCallback;
 import com.parse.LogOutCallback;
@@ -36,6 +38,8 @@ import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 import java.util.List;
+import android.os.Handler;
+import java.util.logging.LogRecord;
 
 public class Rider extends FragmentActivity implements OnMapReadyCallback {
 
@@ -46,6 +50,9 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
 
     Button btCall;
     Boolean requestActive = false;
+
+    Handler handler = new Handler();
+    TextView tvMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +67,7 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
         mapFragment.getMapAsync(this);
 
         btCall = (Button) findViewById(R.id.btCall);
+        tvMessage = (TextView) findViewById(R.id.tvMessage);
 
         ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Requests");
         query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
@@ -70,6 +78,8 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
                     if (objects.size() > 0) {
                         requestActive = true;
                         btCall.setText(R.string.cancel_uber);
+
+                        checkForUpdates();
                     }
                 }
             }
@@ -224,6 +234,13 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
                                 ).show();
                                 btCall.setText(R.string.cancel_uber);
                                 requestActive = true;
+
+                                handler.postDelayed(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        checkForUpdates();
+                                    }
+                                }, 2000);
                             }
                         }
                     });
@@ -237,5 +254,48 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
                 }
             }
         }
+    }
+
+    public void checkForUpdates()
+    {
+        final ParseQuery<ParseObject> query = ParseQuery.getQuery("Requests");
+        query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query.whereExists("driverUsername");
+
+        query.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> objects, ParseException e) {
+                 if (e == null && objects.size() > 0) {
+
+                     ParseQuery<ParseUser> query1 = ParseUser.getQuery();
+                     query1.whereEqualTo("username", objects.get(0).getString("driverUsername"));
+                     query1.findInBackground(new FindCallback<ParseUser>() {
+                         @Override
+                         public void done(List<ParseUser> objects, ParseException e) {
+                             if (e == null && objects.size() > 0) {
+                                 ParseGeoPoint driverLocation = objects.get(0).getParseGeoPoint("location");
+                                 if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                                     Location lastKnowLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                                     if (lastKnowLocation != null) {
+                                         ParseGeoPoint userLocation = new ParseGeoPoint(lastKnowLocation.getLatitude(), lastKnowLocation.getLongitude());
+                                         Double distanceInKm = driverLocation.distanceInKilometersTo(userLocation);
+                                         distanceInKm = (double) Math.round(distanceInKm * 10) / 10;
+                                         tvMessage.setText("Your driver is " + distanceInKm.toString() + " km away");
+                                     }
+                                 }
+                             }
+                         }
+                     });
+
+                     btCall.setVisibility(View.INVISIBLE);
+                 }
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        checkForUpdates();
+                    }
+                }, 2000);
+            }
+        });
     }
 }

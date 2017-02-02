@@ -82,6 +82,10 @@ public class DriverViewRequests extends AppCompatActivity {
             @Override
             public void onLocationChanged(Location location) {
                 updateListViewMethod(location);
+
+                ParseUser.getCurrentUser().put("location",
+                        new ParseGeoPoint(location.getLatitude(), location.getLongitude()));
+                ParseUser.getCurrentUser().saveInBackground();
             }
 
             @Override
