@@ -5,21 +5,26 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="9566860843006"
-    token="5055277053516312781" >
+    timestamp="10180239042464"
+    token="5055277053516312781"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="265" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="40" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
+
+    <artifact
+        location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
 
     <build
         timestamp="1348665626337"
@@ -45,12 +50,11 @@
             type="DEX" />
     </build>
     <build
-        timestamp="9366028474085"
+        timestamp="10180239042464"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="9566860843006" />
 
 </instant-run>
