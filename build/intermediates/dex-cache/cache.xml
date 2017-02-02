@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_ea36a25dbed1e8056557d451751602d5bd3c0115\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_061e1b64b7bd6fb6c4fac81f8ab0279dbb964dbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_783f94d9df157f978fe96ecc87f59da73f13a6a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_00e851ae75d62d8d240803212de0c5356efdcc90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_b7d1c9dcd75631c8e16e3c2b1261a52c950412b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_2e5957515be6cdd49c0959e76bad7b70846efb77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_d09e40638773998557ced663c1ea26e3aee15c91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_6b7d8263b42c6a4adc941f798884298675a843a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_e5722685269bf1cbc258122c5280cd22711d7491\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_2b89faf76439a024f84d2ab3f702c23ad1005034\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_6265ae693be90e66affd7ac3ba1e566540d5e359\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_7ce3ee07995efd6f9cbfb8f8d55fa8091da64a66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_4a844ed55ff693f444c9332234f26582d2538735\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_9dc7f334a0314bfe89dc0d235c5d0a6604622c5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_5aa84987d7d74724ca634bf568abaa5eef06114a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_75a2917e116eea6f8e732fa8ee8d0badc4bacf0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_bd739c3defd93ea38a3da7dbc5162f35786b5ea0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_4714846fdd479d3a95c711932f912fc97d1542e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_db730cf0f280f6cc6be810a82fbe21d5a19c5bb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b663dddc8cf9de157c7ca29dcf59a7cb72e176ca">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_eaea7a0fe7c5365ceab8cce2cc31bfc6a965fff7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3ac9ea04a914ccc286ac9623b76d29449dd5e8f4">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f5cc4c737e6242a79fc9375dbc7e4e0f51f9bb5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_c2c231e476c357db8b2223d401dc4848e25fb959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_2c7e7f9deb8d46382a8c4f1d591d9bca7f78af56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_229110edd0283cbee6abd590075c957179c8c3eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_a8297079017f6d64297f53ca609b087f635e8551\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_95e9246051ceb8f9d312743d200836619c516365\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_14da34983d1bf52b7105b48c0e0e103ed5617494\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_ad70364d78fcbeebe2cd4bb3fed1ab2f79fb7a16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_48366919e826acb8b85921d9691d35529c83edee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_9f9d6d49c0f919a888aae7d348616df24282a819\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_32ce9c702575b5636e1d7c10ac07b2bda6c18838\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_9eda49bb126903ee3e4e3ec78770d9c911e18fae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_31174477f1165f3810e9cc7af8d560af384fa7f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_a38a0a70b617aa14c24fff49b03f0c866c0fa967\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_7b02955d568996f8b1dca24fc6cb5c83860fc393\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_b997c0b7b141033e183983f531abd6c283bfe9ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_8bf7e02987affc2a9ae35f1417399ef9e0534d96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_928b590eac6e151dea26de09ef43054e2b4c71b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_672c165d239e40d2864f854b860f25de73ef6705\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_abd81ebd644406127d774564981658aee802dced\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_efdaa88956c6beebbbad030b846cb8a52d89f97c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_356b5f80b1a4f8e7cfeaf78320dee1fb50cb3a74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_e92b777811bf2cc576f02527fbb681313a76c09a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_364fb997b2fce5404ecf6168b9d6ae4472b5e82d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_33ccf408997199df909a400a2f6adc7f74f1d750\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_3789d9222ba4f992cfc95184990b0aba2e9c6f38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_93851fb4a2a174633970b64b8bb3209d3b27b8c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_b33ef39e4d5504c6e93bb00aad01af6811d8abd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_f3c84a75ec9ddeddc949008273dc7044eb53aa8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_8adf2360851f70e745f7593ca23642ca97b784a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_5b433f3363c51f2bbbb9495247da15a11fd2512f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_ce306f3f4d348469bf3d457343937cee22ff203e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_96246b7e2a36da6ede796346dadf1dc77926c144\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_a9844c80886a32aa35830fa8084e9f793826a8fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_77a184939653e7c487e076a86519ff4d3cb32d6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_a01138f281d0860a8f34803a4e73324adc3cc489\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_c5061313758faa5eb158fdb1533864ebe48f68bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_528cfcbed9772bc4a7f1cb0c0b7dd2d61fe2daf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_a6698930662eebb6046890d2c9ab6eb318cf74f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_9921d20a728f6bdf018cf7c41b9c7608feed2c7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_d41b4378ecd02b3c8fa120fb9dc0d13a028a7c6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_1e70439f1c2c8b34a260fdfe9fbd227d604ed82d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_83db55ad3651db22a62614abd358a61172089e8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_d7edc3968de36f8f74c2ddffd400ff9c4183f570\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_ef08f8d562c82e3374bcc2939f093acd24526cd5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_2f5382b76a50fe1a0f34e45c30c273a1ef89d49a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_652b740d5326c229e0e06ba039f61a2f902f9ed8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_ebc5552934a7525b3484c183edb92eb0c2da7c23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_6bd34ec28a7ded7aeb55c5336f356101c5b266ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_44bd8167b78c39406a3017f4f2a0c4da3478cf59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_3601dc1d42f989334cdf96ecf506885f826ce196\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_59c14b1516479ef678a118eca445aec139a68411\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_706bb49fba957808a75a8b18e82aad9cdd2ecc98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_bce22eda5b52cd5bb20e9e058dfb9875f33c5bce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.0_3869fb64f90974d18d4f6f846c0be9f2ac30d075\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_8ba8845785af15bd2fa1d08946f902b2dc5a5f9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_10017811780300c54e4ffc95405bf10be75184c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a446344e9ffa60ffbeca60a61ba685a6f9b5d79">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bb2565dc7ed09fa121bbc624cc99196cac43de29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_07ddc5b77cb2f16f61541b6b9ca22e2223efbf4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_c154ecd835536f65e4a82301c174859b1b44fd92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_c9d5f97bdf993826077fd9a7f26bae78c9de84c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_f72df2e3de3bd8b79e2d887f0c86fa42fa87febd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_f8107e0a7dc0a2c4f6fc5abe070254515d013769\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_dd4cdca43145dc80e08e66ebd2b65cd80adcb463\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_0731351f913f23c794466572a606d8bbb20032c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_27ddf04c52735144e033dfd8bcda94250c669332\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_dac626ca3c1e455b30c0c6373ab982fade5be2a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_3867e9fae7e61994515d6885b091e649b08b43a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_98931ea1c8e833a9f54a14a422c881366b0136f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_7925e62058eacec6367c15033b8e88cdcb6b4bc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b31bdbf80a1131a4d7b39cd6a64c8c783b8b2071">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_571616ef579992420356457d7c53069f9632a974\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_8eeceee87aae17996e610bd7b30918c4af880530\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_01f3099aa102498e0a2fb9d082170b6deaec26be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_25373fb60b03ef70404ab4f9ef237572c5d0555e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_5574245bf3a4bfc45df48def4c485281136b5c4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_6c006b87a6877d15b0cf5b3474c5bc69fc47c40e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_848d19ebc201b92e856f4987ef7c51af60b67ce3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_1bedf92c588823b9c832cf3720259d428bfd8732\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_f9ae9abcfad1c9f4d162297708d7f3ff356c69dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_940159783742e0dedaf41b8f29556432060e1896\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_3493e3ef7f724705eac9b7710677feebe6ce226a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_1de5952ca23b91d367d3acd27869119960722d71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_a3f2f0c612c2d0ef309893f6bbf5b6deb638fa3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_5e16cf8ea11ac2e3341ade885438d5a8f1071868\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_5b738ad7de66e6c0514c77a24954530035e1b9f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_0fd057c890e608e86cced8a307f231177cb8ce57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_72e58e92cbec28aa434b0fdc5ff2cf7c065988b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_662b6c0ac3c80309d87f09259d169d9897b0db70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_8e19ac6187b0eaad5c6639cbc9c6f6c0017c3104\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_f164f9f0faae651c3e66696b1355fbd4bef37ca2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_3789e445f54c2a7173a3d53f3477668f50ea448c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_1f7fe4631631892ac945004477c4df414d52beb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_6d9ce3e72f2666a1b4434053c4c0650292a5ccec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_b93d80539b41cf9d69850d33b6d30f9db5148915\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_f73f0fc2215c00d8433c5dc5801e20a63f7cb0bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_b898fbffe67cf962dc754476cc0f3f337f950ed8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_84c3d7b59aeda1f8ea3c4f3933f23c2b6bd6abb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="D:\Personal_Projects\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_4418a2d260445b2a43bfb57fdcc402fde0207ffa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_2c0fc9de0d79d6504be62e66100c1074cf29ce24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_2ce154bb48d340fb20bc3abfce45c4167ed8e1c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_7bdddeea397baf27d9f7f520fbfa9c983ec4b2cb\classes.dex" />
+    </item>
+
+</items>
