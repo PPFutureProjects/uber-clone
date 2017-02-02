@@ -3273,6 +3273,7 @@ containing a value of this type.
         public static final int live_stream_seek_bar=0x7f0e00c8;
         public static final int loading_indicator=0x7f0e00c1;
         public static final int logo_only=0x7f0e0064;
+        public static final int logout=0x7f0e0109;
         public static final int lvRequests=0x7f0e00ad;
         public static final int map=0x7f0e00a0;
         public static final int match_global_nicknames=0x7f0e004c;
@@ -3470,6 +3471,9 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f04003b;
         public static final int support_simple_spinner_dropdown_item=0x7f04003c;
     }
+    public static final class menu {
+        public static final int view_requests_menu=0x7f100000;
+    }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
     }
@@ -3580,6 +3584,7 @@ containing a value of this type.
         public static final int decline=0x7f080052;
         public static final int google_maps_key=0x7f08007b;
         public static final int hello_world=0x7f08007c;
+        public static final int logout=0x7f08007d;
         public static final int mr_button_content_description=0x7f080053;
         public static final int mr_chooser_searching=0x7f080054;
         public static final int mr_chooser_title=0x7f080055;
@@ -3596,18 +3601,18 @@ containing a value of this type.
         public static final int mr_controller_stop=0x7f080060;
         public static final int mr_system_route_name=0x7f080061;
         public static final int mr_user_route_category_name=0x7f080062;
-        public static final int parse_app_id=0x7f08007d;
-        public static final int parse_client_key=0x7f08007e;
+        public static final int parse_app_id=0x7f08007e;
+        public static final int parse_client_key=0x7f08007f;
         public static final int place_autocomplete_clear_button=0x7f080063;
         public static final int place_autocomplete_search_hint=0x7f080064;
         public static final int status_bar_notification_info_overflow=0x7f080065;
         public static final int store_picture_message=0x7f080066;
         public static final int store_picture_title=0x7f080067;
-        public static final int tagmanager_preview_dialog_button=0x7f08007f;
-        public static final int tagmanager_preview_dialog_message=0x7f080080;
-        public static final int tagmanager_preview_dialog_title=0x7f080081;
-        public static final int title_activity_driver_map=0x7f080082;
-        public static final int title_activity_rider=0x7f080083;
+        public static final int tagmanager_preview_dialog_button=0x7f080080;
+        public static final int tagmanager_preview_dialog_message=0x7f080081;
+        public static final int tagmanager_preview_dialog_title=0x7f080082;
+        public static final int title_activity_driver_map=0x7f080083;
+        public static final int title_activity_rider=0x7f080084;
         public static final int wallet_buy_button_place_holder=0x7f080068;
     }
     public static final class style {
@@ -3615,8 +3620,6 @@ containing a value of this type.
         public static final int AlertDialog_AppCompat_Light=0x7f0a008c;
         public static final int Animation_AppCompat_Dialog=0x7f0a008d;
         public static final int Animation_AppCompat_DropDownUp=0x7f0a008e;
-        /**  Customize your theme here. 
-         */
         public static final int AppTheme=0x7f0a008f;
         public static final int Base_AlertDialog_AppCompat=0x7f0a0090;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0a0091;

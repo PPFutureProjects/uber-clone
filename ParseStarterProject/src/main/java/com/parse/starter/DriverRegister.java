@@ -23,6 +23,13 @@ public class DriverRegister extends AppCompatActivity {
         setTitle("Driver Register");
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
+
     public void RegisterDriver(View view)
     {
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
@@ -89,6 +96,11 @@ public class DriverRegister extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), Rider.class);
                 startActivity(intent);
             }
+            else if(ParseUser.getCurrentUser().getString("userType").equals("Driver")) {
+                Intent intent = new Intent(getApplicationContext(), DriverViewRequests.class);
+                startActivity(intent);
+            }
+            finish();
         }
     }
 }

@@ -13,6 +13,9 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -24,6 +27,7 @@ import com.parse.ParseException;
 import com.parse.ParseGeoPoint;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +49,9 @@ public class DriverViewRequests extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_view_requests);
+
+        redirect();
+        setTitle("View Nearby Request");
 
         lvRequests = (ListView) findViewById(R.id.lvRequests);
         arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, requests);
@@ -124,6 +131,35 @@ public class DriverViewRequests extends AppCompatActivity {
         }
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater menuInflater = new MenuInflater(this);
+        menuInflater.inflate(R.menu.view_requests_menu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (item.getItemId() == R.id.logout) {
+            ParseUser.logOut();
+            Intent loginIntent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(loginIntent);
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), DriverViewRequests.class);
+        startActivity(intent);
+    }
+
     public void updateListViewMethod(Location location)
     {
         if (location != null) {
@@ -159,6 +195,15 @@ public class DriverViewRequests extends AppCompatActivity {
                     }
                 }
             });
+        }
+    }
+
+    public void redirect()
+    {
+        if (ParseUser.getCurrentUser() == null) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            finish();
         }
     }
 }

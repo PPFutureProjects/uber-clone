@@ -134,6 +134,13 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), Rider.class);
+        startActivity(intent);
+    }
+
     public void Logout(View view)
     {
         ParseUser.logOutInBackground(new LogOutCallback() {
@@ -156,6 +163,7 @@ public class Rider extends FragmentActivity implements OnMapReadyCallback {
         if (ParseUser.getCurrentUser() == null) {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
+            finish();
         }
     }
 

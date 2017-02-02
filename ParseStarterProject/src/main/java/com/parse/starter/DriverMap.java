@@ -40,6 +40,9 @@ public class DriverMap extends FragmentActivity implements OnMapReadyCallback {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_map);
+
+        redirect();
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -122,5 +125,14 @@ public class DriverMap extends FragmentActivity implements OnMapReadyCallback {
                 }
             }
         });
+    }
+
+    public void redirect()
+    {
+        if (ParseUser.getCurrentUser() == null) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
     }
 }

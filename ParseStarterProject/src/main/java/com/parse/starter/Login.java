@@ -22,6 +22,13 @@ public class Login extends AppCompatActivity {
         setTitle("Login");
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
+
     public void LoginUser(View view)
     {
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);

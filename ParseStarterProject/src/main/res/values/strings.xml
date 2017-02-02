@@ -18,4 +18,5 @@
     <string name="cancel_uber">Cancel Uber</string>
     <string name="call_an_uber">Call An Uber</string>
     <string name="title_activity_driver_map">Map</string>
+    <string name="logout">Logout</string>
 </resources>

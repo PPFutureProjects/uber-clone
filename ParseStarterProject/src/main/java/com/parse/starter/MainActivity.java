@@ -31,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
+
     public void RiderRegisterLink(View view)
     {
         Intent intent = new Intent(getApplicationContext(), RiderRegister.class);
@@ -56,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), Rider.class);
                 startActivity(intent);
             }
+            else if(ParseUser.getCurrentUser().getString("userType").equals("Driver")) {
+                Intent intent = new Intent(getApplicationContext(), DriverViewRequests.class);
+                startActivity(intent);
+            }
+            finish();
         }
     }
 }

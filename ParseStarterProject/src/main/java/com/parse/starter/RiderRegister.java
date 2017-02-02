@@ -25,6 +25,13 @@ public class RiderRegister extends AppCompatActivity {
         setTitle("Rider Register");
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
+
     public void RegisterRider(View view)
     {
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
@@ -88,6 +95,11 @@ public class RiderRegister extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), Rider.class);
                 startActivity(intent);
             }
+            else if(ParseUser.getCurrentUser().getString("userType").equals("Driver")) {
+                Intent intent = new Intent(getApplicationContext(), DriverViewRequests.class);
+                startActivity(intent);
+            }
+            finish();
         }
     }
 }
