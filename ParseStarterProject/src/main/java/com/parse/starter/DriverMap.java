@@ -3,6 +3,8 @@ package com.parse.starter;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -13,8 +15,15 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
+import com.parse.SaveCallback;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DriverMap extends FragmentActivity implements OnMapReadyCallback {
 
@@ -64,5 +73,35 @@ public class DriverMap extends FragmentActivity implements OnMapReadyCallback {
         CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngBounds(bounds, padding);
 
         mMap.animateCamera(cameraUpdate);
+    }
+
+    public void AcceptRequest(View view)
+    {
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Requests");
+        query.whereEqualTo("username", intent.getStringExtra("username"));
+        query.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> objects, ParseException e) {
+                if (e == null) {
+                    if (objects.size() > 0) {
+                        for (ParseObject request: objects) {
+                            request.put("driverUsername", ParseUser.getCurrentUser().getUsername());
+                            request.saveInBackground(new SaveCallback() {
+                                @Override
+                                public void done(ParseException e) {
+                                    if (e == null) {
+                                        Toast.makeText(
+                                                getApplicationContext(),
+                                                "Successful",
+                                                Toast.LENGTH_SHORT
+                                        ).show();
+                                    }
+                                }
+                            });
+                        }
+                    }
+                }
+            }
+        });
     }
 }

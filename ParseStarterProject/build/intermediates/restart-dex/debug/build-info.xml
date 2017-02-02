@@ -5,26 +5,26 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="2628376836494"
+    timestamp="6780343367246"
     token="5055277053516312781"
-    verifier="COMPATIBLE" >
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="2515" />
+        duration="370" />
     <task
         name="instant-run-dex"
-        duration="493" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="41" />
+        duration="42" />
     <task
         name="verifier"
-        duration="1" />
+        duration="3" />
 
     <artifact
-        location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
 
     <build
         timestamp="1348665626337"
@@ -34,25 +34,31 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="2556229899152"
-        verifier="FIELD_ADDED" >
+        timestamp="6180691796421"
+        verifier="R_CLASS_CHANGE" >
         <artifact
-            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="2600876109383"
-        verifier="COMPATIBLE" >
+        timestamp="6500620750467"
+        verifier="METHOD_ADDED" >
         <artifact
-            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\builds\debug\2600876109383\classes.dex"
-            type="RELOAD_DEX" />
+            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
     <build
-        timestamp="2628376836494"
-        verifier="COMPATIBLE" >
+        timestamp="6780343367246"
+        verifier="CLASS_ADDED" >
         <artifact
-            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="D:\Personal_Projects\Android Course\uber-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

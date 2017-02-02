@@ -36,7 +36,7 @@ public class DriverViewRequests extends AppCompatActivity {
 
     ArrayList<Double> requestLatitudes = new ArrayList<Double>();
     ArrayList<Double> requestLongitudes = new ArrayList<Double>();
-
+    ArrayList<String> usernames = new ArrayList<String>();
 
     LocationManager locationManager;
     LocationListener locationListener;
@@ -57,12 +57,13 @@ public class DriverViewRequests extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                     Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                    if (requestLatitudes.size() > position &&requestLongitudes.size() > position && lastKnownLocation != null) {
+                    if (requestLatitudes.size() > position &&requestLongitudes.size() > position && usernames.size() > position && lastKnownLocation != null) {
                         Intent intent = new Intent(getApplicationContext(), DriverMap.class);
                         intent.putExtra("requestLatitude", requestLatitudes.get(position));
                         intent.putExtra("requestLongitude", requestLongitudes.get(position));
                         intent.putExtra("driverLatitude", lastKnownLocation.getLatitude());
                         intent.putExtra("driverLongitude", lastKnownLocation.getLongitude());
+                        intent.putExtra("username", usernames.get(position));
                         startActivity(intent);
                     }
                 }
@@ -148,7 +149,7 @@ public class DriverViewRequests extends AppCompatActivity {
 
                                 requestLatitudes.add(requestLocation.getLatitude());
                                 requestLongitudes.add(requestLocation.getLongitude());
-
+                                usernames.add(request.getString("username"));
                             }
                         } else {
                             requests.add("No active requests nearby");
